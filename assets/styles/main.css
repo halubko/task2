@@ -1,13 +1,12 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    margin: 12px 24px;
+    padding: 14px 24px;
 }
 
 .button{
-    background-color: black;
-    padding: 12px 24px;
-    font-weight: 500;
+    padding: 11px 23px;
+    font-weight: 600;
     border: 1px solid rgba(0,0,0,0);
     border-radius: 8px;
     cursor: pointer;
@@ -28,8 +27,9 @@
 
 .header__links{
     display: flex;
-    gap: 16px;
+    gap: 32px;
     align-items: center;
+    padding: 4px 8px;
 }
 
 .header__link{
@@ -54,8 +54,7 @@
 .main-text{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 72px 80px;
+    padding: 82px 80px;
     height: 151px;
 }
 
@@ -63,15 +62,29 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 52px;
     font-weight: bold;
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 0;
 }
 
 .main-text__content{
-    width: 35%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .main-text__text{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 18px;
+    width: 93%;
+}
+
+.main-text__buttons{
+    display: flex;
+    gap: 16px;
 }
 
 .button--secondary{
