@@ -1,0 +1,82 @@
+.rev-page__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 48px;
+    height: 619px;
+}
+
+.rev-page__content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content-text__label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    vertical-align: middle;
+    line-height: 150%;
+    margin: 0;
+}
+
+.content-text__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 0;
+    vertical-align: middle;
+    line-height: 128%;
+    margin: 0;
+}
+
+.content-text__desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 160%;
+    margin: 0;
+}
+
+.rev-page__features {
+    display: flex;
+    gap: 24px;
+}
+
+.rev-page__feature-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    vertical-align: middle;
+    line-height: 160%;
+    margin: 0;
+}
+
+.rev-page__feature-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 160%;
+    margin: 0;
+}
+
+.rev-page__actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.rev-page__img {
+    flex: 1;
+}
+
+.rev-page__img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}

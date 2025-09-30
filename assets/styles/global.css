@@ -26,7 +26,7 @@ body{
 }
 
 .button--secondary{
-    background-color: white;
+    background-color: transparent;
     color: black;
     border: 1px solid black;
     transition: all 0.3s ease-in-out;
@@ -47,8 +47,11 @@ body{
     transition: all 0.3s ease-in-out;
 }
 
-.contact-page, .footer{
+.rev-page, .contact-page, .footer{
     display: flex;
+    align-items: center;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 89px 80px;
-    gap: 5.56vw;
 }
