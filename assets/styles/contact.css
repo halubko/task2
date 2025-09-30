@@ -1,7 +1,3 @@
-body{
-    background-color: #F9F8FE;
-}
-
 .contact{
     display: flex;
     flex-direction: column;
@@ -59,7 +55,6 @@ body{
 }
 
 .contact-info__href{
-    padding: 8px;
     border: none;
     border-radius: 8px;
     font-size: 14px;

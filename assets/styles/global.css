@@ -47,11 +47,28 @@ body{
     transition: all 0.3s ease-in-out;
 }
 
-.rev-page, .contact-page, .footer{
+.href{
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    width: fit-content;
+    background-color: transparent;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.rev-page, .discover-page, .contact-page, .footer{
     display: flex;
     align-items: center;
     gap: 80px;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 89px 80px;
+}
+
+.rev-page, .contact-page{
+    background-color: #F9F8FE;
 }

@@ -1,6 +1,7 @@
 .main-page{
     background-color: #FFFFFF;
     height: 890px;
+    flex-direction: column;
 }
 
 .main-page__img{
