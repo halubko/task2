@@ -1,0 +1,37 @@
+.subscribe{
+    flex-direction: column;
+    gap: 48px;
+}
+
+.subscribe__content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 20px;
+}
+
+.subscribe__content-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.subscribe-text__title, .subscribe-text__desc{
+    text-align: center;
+}
+
+.subscribe__form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 483px;
+}
+
+.subscribe__input{
+    display: flex;
+    gap: 16px;
+}
+
+.subscribe__form__alert{
+    text-align: center;
+}
