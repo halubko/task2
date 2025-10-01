@@ -5,3 +5,5 @@
 ### Создано верстка веб-приложения (HTML5/CSS3) на основе "Lifestyle" дизайна
 
 ## Для запуска используйте локальный сервер (VSCode: LiveServer, WebStorm: Live Edit)
+
+## Деплой веб-приложения: https://halubko.github.io/task2/
