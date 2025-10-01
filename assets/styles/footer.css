@@ -1,6 +1,5 @@
 .footer{
     max-width: 1440px;
-    justify-content: center;
 }
 
 .footer__content{
@@ -11,7 +10,7 @@
 }
 
 .footer__content, .footer__links{
-    padding-top: 82px;
+    padding-top: 78px;
 }
 
 .footer__text{
@@ -93,3 +92,92 @@
     gap: 8px;
     line-height: 160%;
 }
+
+@media (max-width: 1024px) {
+    .footer__title {
+        font-size: 28px;
+    }
+
+    .footer__links-title {
+        font-size: 20px;
+    }
+
+    .footer__link {
+        font-size: 15px;
+    }
+}
+
+/* Вертикальное расположение колонок после 768px */
+@media (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer__content {
+        width: 100%;
+        gap: 32px;
+    }
+
+    .footer__links-left {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    .title1 {
+        grid-area: auto;
+    }
+    .link1-1 { grid-area: auto; }
+    .link1-2 { grid-area: auto; }
+    .link1-3 { grid-area: auto; }
+    .link1-4 { grid-area: auto; }
+    .link1-5 { grid-area: auto; }
+
+    .title2 {
+        grid-area: auto;
+    }
+    .link2-1 { grid-area: auto; }
+    .link2-2 { grid-area: auto; }
+    .link2-3 { grid-area: auto; }
+    .link2-4 { grid-area: auto; }
+    .link2-5 { grid-area: auto; }
+
+    .footer__links-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__content, .footer__links {
+        padding-top: 32px;
+    }
+
+    .footer__content {
+        gap: 24px;
+    }
+
+    .footer__input{
+        flex-direction: column;
+    }
+
+    .footer__title {
+        font-size: 24px;
+    }
+
+    .footer__links-title {
+        font-size: 18px;
+    }
+
+    .footer__link {
+        font-size: 14px;
+    }
+
+    .footer__links {
+        gap: 32px;
+    }
+
+    .footer__links-left {
+        gap: 24px;
+    }
+}
+

@@ -21,14 +21,13 @@
 .main-text__title{
     display: flex;
     flex-direction: column;
-    gap: 2px;
 }
 
 .main-text__content{
     width: 47%;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 18px;
 }
 
 .main-text__text{
@@ -38,4 +37,87 @@
 .main-text__buttons{
     display: flex;
     gap: 16px;
+}
+
+@media (max-width: 1024px) {
+    .main-page {
+        height: auto;
+        min-height: 890px;
+    }
+
+    .main-page__text {
+        padding: 60px 40px;
+        height: auto;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .main-text__content {
+        width: 100%;
+    }
+
+    .main-text__text {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-page {
+        height: auto;
+        min-height: 700px;
+    }
+
+    .main-page__img {
+        height: 400px;
+    }
+
+    .main-page__text {
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .main-text__title {
+        font-size: 32px;
+    }
+
+    .main-text__content {
+        gap: 20px;
+    }
+
+    .main-text__text {
+        font-size: 16px;
+    }
+
+    .main-text__buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-page {
+        min-height: 600px;
+    }
+
+    .main-page__img {
+        height: 300px;
+    }
+
+    .main-page__text {
+        padding: 30px 16px;
+    }
+
+    .main-text__title {
+        font-size: 28px;
+        gap: 1px;
+    }
+
+    .main-text__content {
+        gap: 16px;
+    }
+
+    .main-text__text {
+        font-size: 14px;
+    }
 }

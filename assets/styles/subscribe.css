@@ -35,3 +35,22 @@
 .subscribe__form__alert{
     text-align: center;
 }
+
+@media (max-width: 1024px) {
+    .subscribe__form{
+        gap: 8px;
+        max-width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .subscribe__form{
+        gap: 8px;
+        max-width: 90%;
+    }
+    .subscribe-text__title{
+        font-size: 32px;
+    }
+    .subscribe__input{
+        flex-direction: column;
+    }
+}
