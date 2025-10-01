@@ -15,15 +15,7 @@
 }
 
 .rev-page__features {
-    display: flex;
-    gap: 16px;
     margin-bottom: 16px;
-}
-
-.rev-page__feature {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
 }
 
 .rev-page__feature-title {
