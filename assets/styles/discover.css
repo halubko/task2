@@ -1,7 +1,6 @@
 .discover-page {
     flex-direction: column;
     align-items: start;
-    background-color: #FFFFFF;
 }
 
 .discover-page__content {
@@ -10,26 +9,6 @@
     gap: 24px;
     width: 848px;
     padding-top: 16px;
-}
-
-.discover-page__features {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 48px;
-    width: 100%;
-}
-
-.discover-page__feature {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.discover-page__feature-img {
-    width: 100%;
-    height: 222px;
-    border-radius: 8px;
-    object-fit: cover;
 }
 
 .discover-page__feature-title {
