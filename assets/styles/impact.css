@@ -1,0 +1,22 @@
+.impact-page__content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.impact-page__features{
+    margin-bottom: 10px;
+}
+
+.impact-page__feature{
+    gap: 12px;
+}
+
+.impact-page__feature-title{
+    font-family: 'Poppins', sans-serif;
+    line-height: 160%;
+}
+
+.impact-page__feature-desc{
+    font-size: 16px;
+}
