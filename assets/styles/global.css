@@ -58,10 +58,13 @@ body{
     background-color: transparent;
     gap: 10px;
     align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 
-.rev-page, .discover-page, .contact-page, .footer{
+.rev-page, .discover-page, .secrets-page, .contact-page, .footer{
     display: flex;
     align-items: center;
     gap: 80px;
@@ -69,6 +72,39 @@ body{
     padding: 89px 80px;
 }
 
-.rev-page, .contact-page{
+.rev-page, .secrets-page, .contact-page{
     background-color: #F9F8FE;
+}
+
+.label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    vertical-align: middle;
+    line-height: 150%;
+    margin: 0;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 0;
+    vertical-align: middle;
+    line-height: 128%;
+    margin: 0;
+}
+
+.desc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 160%;
+    margin: 0;
+}
+
+.actions{
+    display: flex;
+    gap: 16px;
 }

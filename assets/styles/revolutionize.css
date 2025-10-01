@@ -14,33 +14,6 @@
     padding: 28px 0;
 }
 
-.content-text__label {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 0;
-    vertical-align: middle;
-    line-height: 150%;
-    margin-bottom: 20px;
-}
-
-.content-text__title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 52px;
-    font-weight: bold;
-    letter-spacing: 0;
-    vertical-align: middle;
-    line-height: 128%;
-
-}
-
-.content-text__desc {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 160%;
-}
-
 .rev-page__features {
     display: flex;
     gap: 16px;
@@ -56,24 +29,11 @@
 .rev-page__feature-title {
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 0;
-    vertical-align: middle;
     line-height: 160%;
-    margin: 0;
 }
 
 .rev-page__feature-desc {
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    letter-spacing: 0;
-    line-height: 160%;
-    margin: 0;
-}
-
-.rev-page__actions {
-    display: flex;
-    gap: 16px;
 }
 
 .rev-page__img {
