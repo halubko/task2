@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="public, max-age=3600">
     <meta name="description"
           content="Lifestyle leader web-app for sport like basketball, tennis, running, bicycle.">
 
@@ -11,9 +11,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/styles/global.css">
     <link rel="stylesheet" href="/assets/styles/header.css">
@@ -42,7 +40,7 @@
 
 <main class="main">
     <div class="white main-page">
-        <img class="main-page__img" src="/assets/images/yoga.jpg" alt="yoga">
+        <img class="main-page__img" src="/assets/images/yoga.jpg" alt="yoga" fetchpriority="high">
         <div class="main-page__text">
             <h1 class="title main-text__title">
                 <span class="title main-text__title-top">Stay tuned,</span>
@@ -84,7 +82,7 @@
             </div>
         </div>
         <div class="rev-page__img">
-            <img src="/assets/images/runner.jpg" alt="runner">
+            <img src="/assets/images/runner.jpg" alt="runner" loading="lazy">
         </div>
     </div>
 
@@ -96,17 +94,17 @@
         </div>
         <div class="grid_1-3-features discover-page__features">
             <div class="grid-feature discover-page__feature">
-                <img class="grid_1-3-img discover-page__feature-img" src="/assets/images/treadmill.jpg" alt="treadmill">
+                <img class="grid_1-3-img discover-page__feature-img" src="/assets/images/treadmill.jpg" alt="treadmill" loading="lazy">
                 <h2 class="title discover-page__feature-title">Health and Wellness</h2>
                 <p class="desc discover-page__feature-desc">Discover expert advice and tips on maintaining a healthy lifestyle.</p>
             </div>
             <div class="grid-feature discover-page__feature">
-                <img class="grid_1-3-img discover-page__feature-img" src="/assets/images/basketball.jpg" alt="basketball">
+                <img class="grid_1-3-img discover-page__feature-img" src="/assets/images/basketball.jpg" alt="basketball" loading="lazy">
                 <h2 class="title discover-page__feature-title">Boost Your Productivity</h2>
                 <p class="desc discover-page__feature-desc">Learn effective strategies to maximize your productivity and achieve your goals.</p>
             </div>
             <div class="grid-feature discover-page__feature">
-                <img class="grid_1-3-img discover-page__feature-img" src="/assets/images/court.jpg" alt="court">
+                <img class="grid_1-3-img discover-page__feature-img" src="/assets/images/court.jpg" alt="court" loading="lazy">
                 <h2 class="title discover-page__feature-title">Find Joy in Leisure</h2>
                 <p class="desc discover-page__feature-desc">Discover exciting activities and hobbies to make the most of your leisure time.</p>
             </div>
@@ -136,7 +134,7 @@
             </div>
         </div>
         <div class="secrets-page__img">
-            <img src="/assets/images/bicycle.jpg" alt="bicycle">
+            <img src="/assets/images/bicycle.jpg" alt="bicycle" loading="lazy">
         </div>
     </div>
 
@@ -147,7 +145,7 @@
         </h1>
         <div class="grid_1-3-features world-page__features">
             <div class="grid-feature world-page__feature">
-                <img class="grid_1-3-img world-page__feature-img" src="/assets/images/runnersV.jpg" alt="runners in a V shape">
+                <img class="grid_1-3-img world-page__feature-img" src="/assets/images/runnersV.jpg" alt="runners in a V shape" loading="lazy">
                 <h2 class="title world-page__feature-title">Unlock Your Full Potential with LifeBlend Hub's Comprehensive Content</h2>
                 <p class="desc world-page__feature-desc">Engage with our curated content and resources to enhance every aspect of your lifestyle.</p>
                 <a class="href" href="">
@@ -156,7 +154,7 @@
                 </a>
             </div>
             <div class="grid-feature world-page__feature">
-                <img class="grid_1-3-img world-page__feature-img" src="/assets/images/swimming-pool.jpg" alt="swimming pool">
+                <img class="grid_1-3-img world-page__feature-img" src="/assets/images/swimming-pool.jpg" alt="swimming pool" loading="lazy">
                 <h2 class="title world-page__feature-title">Stay Informed and Inspired with LifeBlend Hub's Diverse Content Content</h2>
                 <p class="desc world-page__feature-desc">Access our extensive collection of articles, videos, and guides to enrich your daily life.</p>
                 <a class="href" href="">
@@ -165,7 +163,7 @@
                 </a>
             </div>
             <div class="grid-feature world-page__feature">
-                <img class="grid_1-3-img world-page__feature-img" src="/assets/images/boots.jpg" alt="boots">
+                <img class="grid_1-3-img world-page__feature-img" src="/assets/images/boots.jpg" alt="boots" loading="lazy">
                 <h2 class="title world-page__feature-title">Transform Your Lifestyle with LifeBlend Hub's Expertly Curated Resources</h2>
                 <p class="desc world-page__feature-desc">Find the tools and resources you need to achieve your goals and live your best life.</p>
                 <a class="href" href="">
@@ -201,7 +199,7 @@
             </div>
         </div>
         <div class="rev-page__img">
-            <img src="/assets/images/street-runners.jpg" alt="street-runner">
+            <img src="/assets/images/street-runners.jpg" alt="street-runner" loading="lazy">
         </div>
     </div>
 
@@ -249,7 +247,7 @@
             </div>
         </div>
         <div class="contact-page__img">
-            <img src="/assets/images/tennis.jpg" alt="tennis">
+            <img src="/assets/images/tennis.jpg" alt="tennis" loading="lazy">
         </div>
     </div>
 </main>
