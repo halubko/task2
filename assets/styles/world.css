@@ -1,0 +1,34 @@
+.world-page {
+    flex-direction: column;
+    align-items: start;
+    padding: 80px 80px 98px 80px;
+}
+
+.world-page__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.world-page__feature{
+    align-items: center;
+}
+
+.world-page__feature-title{
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.world-page__feature-desc{
+    font-size: 16px;
+}
+
+.world-page__feature-title, .world-page__feature-desc{
+    text-align: center;
+}
+
+.href{
+    padding-top: 8px;
+}
